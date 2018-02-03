@@ -1,0 +1,40 @@
+body {
+    background-color: #196dff;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: navajowhite;
+    outline-color: yellow;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+header {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.nav-item a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: black;
+}
