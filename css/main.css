@@ -42,15 +42,15 @@ header {
 /* Container holding the image and the text */
 .container {
     position: relative;
+    margin:0px;
 }
 
-/* Bottom right text */
+/* Centered Text */
 .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    right: 10px;
+    left: 90px;
+    top: 50%;
+    bottom: 50%;
+    color: black;
+    margin:0px;
