@@ -39,10 +39,17 @@ header {
     background-color: black;
 }
 
+/* Container holding the image and the text */
 .container {
-    position: absolute;
+    position: relative;
     text-align: center;
-    background-image: url("40007512-background-wallpapers.jpg");
-    height: 720px;
-    width: 1080px;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
