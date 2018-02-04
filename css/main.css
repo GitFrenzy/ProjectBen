@@ -48,8 +48,8 @@ header {
 /* Center Text */
 .text-block {
     position: absolute;
-    right: 10px;
-    left: 90px;
+    right: 50px;
+    left: 50px;
     top: 50%;
     bottom: 50%;
     color: black;
