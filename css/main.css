@@ -54,3 +54,12 @@ header {
     bottom: 50%;
     color: black;
     margin:0px;
+    
+    @viewport {
+        zoom: 1.0;
+     width: extend-to-zoom;
+    }
+    
+    @-ms-viewport {
+        width: extend-to-zoom;
+        zoom: 1.0;
