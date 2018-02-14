@@ -1,6 +1,9 @@
 body {
     background-color: #196dff;
-    margin: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
 
 h1 {
@@ -42,24 +45,13 @@ header {
 /* Container holding the image and the text */
 .container {
     position: relative;
-    margin:0px;
 }
 
-/* Center Text */
+/* Bottom right text */
 .text-block {
     position: absolute;
-    right: 50px;
-    left: 50px;
+    right: 70px;
+    left: 30px;
     top: 50%;
     bottom: 50%;
     color: white;
-    margin:0px;
-    
-    @viewport {
-        zoom: 1.0;
-     width: extend-to-zoom;
-    }
-    
-    @-ms-viewport {
-        width: extend-to-zoom;
-        zoom: 1.0;
