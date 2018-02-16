@@ -37,6 +37,6 @@
 
 /* Container holding the image and the text */
 .container {
-    position: relative;
+    position: absolute;
     margin:0;
     left-margin:0;
