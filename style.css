@@ -34,3 +34,9 @@
 	color:#FFF;
 	background: url(images/navigation-hover.png) repeat-x left top;
 }
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    margin:0;
+    left-margin:0;
